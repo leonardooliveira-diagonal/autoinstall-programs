@@ -14,6 +14,27 @@ if (-not $ehAdmin) {
     return
 }
 
+# --- Menu inicial ---
+Write-Host ''
+Write-Host '=====================================' -ForegroundColor Cyan
+Write-Host '   INSTALACAO AUTOMATICA DE PROGRAMAS' -ForegroundColor Cyan
+Write-Host '=====================================' -ForegroundColor Cyan
+Write-Host '  [1] Iniciar instalacao'
+Write-Host '  [0] Sair'
+Write-Host ''
+
+do {
+    $opcao = (Read-Host 'Escolha uma opcao').Trim()
+    if ($opcao -notin '0', '1') {
+        Write-Warning 'Opcao invalida. Digite 1 para iniciar ou 0 para sair.'
+    }
+} until ($opcao -in '0', '1')
+
+if ($opcao -eq '0') {
+    Write-Host 'Saindo sem instalar nada.' -ForegroundColor Yellow
+    return
+}
+
 # --- Log da execucao ---
 $logArquivo = Join-Path $env:TEMP ('instalacao_{0:yyyyMMdd_HHmmss}.log' -f (Get-Date))
 Start-Transcript -Path $logArquivo | Out-Null
