@@ -68,37 +68,37 @@ catch {
 $apps = @(
     @{
         Nome    = 'BitDefender'
-        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\epskit_x64_7.9.27.574\epskit_x64.exe'
+        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\1-NOTEBOOKS\epskit_x64_7.9.27.574\epskit_x64.exe'
         Args    = '/S'
     },
     @{
         Nome    = 'Java'
-        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\4-jre-8u231-windows-x64.exe'
+        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\1-NOTEBOOKS\4-jre-8u231-windows-x64.exe'
         Args    = '/qn /norestart'
     },
     @{
         Nome    = 'Google Chrome'
-        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\5-ChromeSetup.exe'
+        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\1-NOTEBOOKS\5-ChromeSetup.exe'
         Args    = '/qn /norestart'
     },
     @{
         Nome    = '7zip'
-        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\7z2401-x64.exe'
+        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\1-NOTEBOOKS\7z2401-x64.exe'
         Args    = '/qn /norestart'
     },
     @{
         Nome    = 'AnyDesk'
-        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\AnyDesk_Diagonal.exe'
+        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks1-NOTEBOOKS\\AnyDesk_Diagonal.exe'
         Args    = '/qn /norestart'
     },
     @{
         Nome    = 'FortiClient'
-        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\FortiClientVPN.exe'
+        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\1-NOTEBOOKS\FortiClientVPN.exe'
         Args    = '/qn /norestart'
     },
     @{
         Nome    = 'Office'
-        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\OfficeSetup.exe'
+        Caminho = '\\diagonal.net\Global\Transfer_TI\Notebooks\1-NOTEBOOKS\OfficeSetup.exe'
         Args    = '/qn /norestart'
     },
     @{
